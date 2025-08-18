@@ -4,11 +4,11 @@ import { ArrowLeft, User } from 'lucide-react';
 import { Loading } from "@/components/ui/loading";
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
+
 import { useEffect, useState } from 'react';
 
 export default function SignInPage() {
-  const router = useRouter();
+
 
   const [isLoading, setIsLoading] = useState(true);
 
