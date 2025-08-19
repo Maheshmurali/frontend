@@ -8,30 +8,24 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import { useState } from "react"
 
-
 export default function MainHeader() {
   const [isopen, setIsOpen] = useState(false)
-
-
-  // Get custom role from user.publicMetadata
-
 
   return (
     <header className="px-12">
       <div className="flex justify-between px-6 md:px-12 bg-sub items-center py-4 fixed w-full top-0 left-0 z-50">
-        <Link href='/'>
+        <Link href='/' onClick={() => setIsOpen(false)}>
           <Image src={logoImage} width={150} height={100} alt="Logo image" />
         </Link>
 
-        <NavLinks isOpen={isopen} />
+        {/* Pass setIsOpen to NavLinks */}
+        <NavLinks isOpen={isopen} setIsOpen={setIsOpen} />
 
         <div className="flex align-middle items-center gap-2">
           <Image src={userImg} alt="user image" height={32} />
-          
-            <Link href='/sign-in' className= 'text-white'>
-              LogIn
-            </Link>
-          
+          <Link href='/sign-in' className='text-white' onClick={() => setIsOpen(false)}>
+            LogIn
+          </Link>
         </div>
 
         <div onClick={() => setIsOpen(!isopen)} className="cursor-pointer lg:hidden z-50">
