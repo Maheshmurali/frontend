@@ -2,7 +2,7 @@ import PartnerHighlites from '@/app/component/homepage/Partnerhightlite'
 import HeaderSlide from './component/homepage/Homeprofileslide'
 import Image from 'next/image'
 import ClientList from './component/homepage/clients'
-import { Announcements } from './component/homepage/announcements'
+
 
 function Homepage() {
   const isLoaded = true
@@ -29,7 +29,7 @@ function Homepage() {
       </div>
     </div>
   </section>
-  <Announcements />
+
     </div>
   )
 }
