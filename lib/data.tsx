@@ -25,6 +25,14 @@ import sortimo from '@/assets/products/sortimo/sortimo.jpg'
 import falch from '@/assets/products/flach/falch.jpg'
 import g349 from '@/assets/products/flach/g349.jpg'
 import g624 from '@/assets/products/flach/g624.jpg'
+import analyst from "@/assets/products/wincan/Analyst.png"
+import map from "@/assets/products/wincan/Map.png"
+import manhole from "@/assets/products/wincan/VXManhole.png"
+import office from "@/assets/products/wincan/VXOffice.png"
+import laserscan from "@/assets/products/wincan/LaserScan.png"
+import protouch from "@/assets/products/wincan/ProTouch.png"
+import vx3d from "@/assets/products/wincan/WinCan 3D.png"
+import web from "@/assets/products/wincan/Web.png"
 
 
 export const partnerProducts = {
@@ -205,7 +213,183 @@ export const partnerProducts = {
           "Storage": "500GB+ recommended"
         }
       },
-      
+           {
+        id: 2,
+        name: "WinCan VX Manhole",
+        category: "Inspection Software",
+        image: manhole,
+        width: "500",
+        height : "2",
+        description: "Specialized tools for inspecting manholes, boreholes and deep wells.",
+        keyFeatures: [
+          "Achieve standards compliance and generate custom reports tailored to the inspection of manholes and deep wells.",
+          "Automated defect detection",
+          "Comprehensive reporting tools",
+          "Multi-language support"
+        ],
+        specifications: {
+          "Database": "SQL Server / PostgreSQL",
+          "Video Formats": "AVI, MP4, WMV, MOV",
+          "Export Formats": "PDF, Excel, Word, XML",
+          "Operating System": "Windows 10/11",
+          "RAM Requirements": "8GB minimum, 16GB recommended",
+          "Storage": "500GB+ recommended"
+        }
+      },
+        {
+        id: 3,
+        name: "WinCan VX Office",
+        category: "Inspection Software",
+        image: office,
+        width: "500",
+        height : "2",
+        description: "Everything you need to analyze and post-process inspections",
+        keyFeatures: [
+          "Validate, post-process and package inspection data for delivery to the client, as well as generate customized reports.",
+          "Comprehensive reporting tools",
+          "Multi-language support"
+        ],
+        specifications: {
+          "Database": "SQL Server / PostgreSQL",
+          "Video Formats": "AVI, MP4, WMV, MOV",
+          "Export Formats": "PDF, Excel, Word, XML",
+          "Operating System": "Windows 10/11",
+          "RAM Requirements": "8GB minimum, 16GB recommended",
+          "Storage": "500GB+ recommended"
+        }
+      },
+        {
+        id: 4,
+        name: "WinCan Analyst",
+        category: "Inspection Software",
+        image: analyst,
+        width: "500",
+        height : "2",
+        description: "Allowing municipalities and engineers to analyze and manage collection systems.",
+        keyFeatures: [
+          "AWinCan Analyst is a software to valuate, manage and analyze Sewer Networks. The software is based on the WinCan VX platform, which secures a direct integration of the inspection data to the analyses of this data, without a need to interchange the data, which could reflect in loss of specific data.",
+        ],
+        specifications: {
+          "Database": "SQL Server / PostgreSQL",
+          "Video Formats": "AVI, MP4, WMV, MOV",
+          "Export Formats": "PDF, Excel, Word, XML",
+          "Operating System": "Windows 10/11",
+          "RAM Requirements": "8GB minimum, 16GB recommended",
+          "Storage": "500GB+ recommended"
+        }
+      },
+        {
+        id: 5,
+        name: "WinCan Web",
+        category: "Inspection Software",
+        image: web,
+        width: "500",
+        height : "2",
+        description: "The cloud solution for secure, browser-based access to WinCan VX inspections",
+        keyFeatures: [
+          "Browser-based access to inspection data, images and video.",
+          "Deliver inspection results immediately and securely",
+          "CAllow authorized viewers to generate their own reports from data.",
+          "Fast, Easy Sharing"
+        ],
+        specifications: {
+          "Database": "SQL Server / PostgreSQL",
+          "Video Formats": "AVI, MP4, WMV, MOV",
+          "Export Formats": "PDF, Excel, Word, XML",
+          "Operating System": "Windows 10/11",
+          "RAM Requirements": "8GB minimum, 16GB recommended",
+          "Storage": "500GB+ recommended"
+        }
+      },
+        {
+        id: 6,
+        name: "WinCan Map",
+        category: "Inspection Software",
+        image: map,
+        width: "500",
+        height : "2",
+        description: "The geographic information system for sewer networks.",
+        keyFeatures: [
+          "Navigate and analyze your inspection data using familiar GIS views and tools. WinCan Map VX accepts all major GIS data formats (ESRI, AutoCAD, DXF / DWG, MapInfo, OpenStreetMap, etc.).",
+          "Standard Version including all advanced functionalities like GPS connection, transferring Shape Data to WinCan VX, correction of pipe positions, digitizing manholes and pipe assets",
+          "Comprehensive reporting tools",
+          "Multi-language support"
+        ],
+        specifications: {
+          "Database": "SQL Server / PostgreSQL",
+          "Video Formats": "AVI, MP4, WMV, MOV",
+          "Export Formats": "PDF, Excel, Word, XML",
+          "Operating System": "Windows 10/11",
+          "RAM Requirements": "8GB minimum, 16GB recommended",
+          "Storage": "500GB+ recommended"
+        }
+      },
+        {
+        id: 7,
+        name: "WinCan LaserScan",
+        category: "Inspection Software",
+        image: laserscan,
+        width: "500",
+        height : "2",
+        description: "WRc-certified deformation measurement using laser hardware.",
+        keyFeatures: [
+          "Generate reports for ovality, capacity and diameter.",
+          "View a 3D model of the pipe, and export it to CAD using industry-standard DXF format.",
+          "Package your WinCan Laser scans into WinCan's free viewer software.",
+          "WinCan Laser is WRc-certified as of July 2014"
+        ],
+        specifications: {
+          "Database": "SQL Server / PostgreSQL",
+          "Video Formats": "AVI, MP4, WMV, MOV",
+          "Export Formats": "PDF, Excel, Word, XML",
+          "Operating System": "Windows 10/11",
+          "RAM Requirements": "8GB minimum, 16GB recommended",
+          "Storage": "500GB+ recommended"
+        }
+      },
+              {
+        id: 8,
+        name: "WinCan ProTouch",
+        category: "Inspection Software",
+        image: protouch,
+        width: "500",
+        height : "2",
+        description: "WRc-certified deformation measurement using laser hardware.",
+        keyFeatures: [
+          "Touchscreen data entry and a large video display make ProTouch ideal for tablet-based documentation of push camera lateral inspections",
+          "Interfaces with WinCan 3D to automatically generate a 3D model of inspected pipes.",
+        ],
+        specifications: {
+          "Database": "SQL Server / PostgreSQL",
+          "Video Formats": "AVI, MP4, WMV, MOV",
+          "Export Formats": "PDF, Excel, Word, XML",
+          "Operating System": "Windows 10/11",
+          "RAM Requirements": "8GB minimum, 16GB recommended",
+          "Storage": "500GB+ recommended"
+        }
+      },
+              {
+        id: 9,
+        name: "WinCan 3D",
+        category: "Inspection Software",
+        image: vx3d,
+        width: "500",
+        height : "2",
+        description: "Visualize collection systems in three dimensions.",
+        keyFeatures: [
+          "Based on data collected during inspection, WinCan 3D builds a virtual three-dimensional model of pipe infrastructure. Such a model even includes laterals, provided their location, clock position and angle are captured using ProTouch or Photo Assist",
+          "3D models can be easily rotated, zoomed and panned, and components of a 3D model can be clicked to highlight the corresponding inspection data",
+          "WinCan 3D models can be added to inspection reports, or exported as DXF files for use in CAD."
+        ],
+        specifications: {
+          "Database": "SQL Server / PostgreSQL",
+          "Video Formats": "AVI, MP4, WMV, MOV",
+          "Export Formats": "PDF, Excel, Word, XML",
+          "Operating System": "Windows 10/11",
+          "RAM Requirements": "8GB minimum, 16GB recommended",
+          "Storage": "500GB+ recommended"
+        }
+      },
     ]
   },
   enz: {
