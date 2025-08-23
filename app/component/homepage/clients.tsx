@@ -54,7 +54,7 @@ const clients = [
 export default function ClientList() {
   return (
     <div className="bg-drakGray mt-4 rounded-md py-8">
-      <div className="text-black text-3xl py-4 w-full text-center">
+      <div className="text-black text-3xl font-bold py-4 w-full text-center">
         <h2 className="text-white">
           <span className="text-main text-4xl">O</span>ur Major Clients
         </h2>
