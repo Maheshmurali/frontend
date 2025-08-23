@@ -13,19 +13,19 @@ function Homepage() {
       <PartnerHighlites />
       <ClientList />
 
-      {/* CEO Message Section */}
+
       <section
         className={`py-16 bg-darkGray mt-6 ${
           isLoaded ? 'animate-fade-in animate-delay-400' : 'opacity-0'
         }`}
       >
         <div className="container mx-auto px-4 max-w-4xl">
-          {/* Heading */}
+
           <h2 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6">
             <span className="text-main">M</span>essage From CEO
           </h2>
 
-          {/* CEO Image (Centered) */}
+
           <div className="flex justify-center mb-6">
             <Image
               src="/user.png"
@@ -36,14 +36,12 @@ function Homepage() {
             />
           </div>
 
-          {/* Message Content */}
           <div className="bg-opacity-10 rounded-lg relative">
-            {/* Quote Icon (Right Side) */}
+
             <div className="flex justify-end mb-4">
               <Quote className="w-8 h-8 text-white" />
             </div>
 
-            {/* CEO Message */}
             <div className="text-white font-serif text-base sm:text-lg leading-relaxed text-justify">
               <p>
                 At <strong>SHENZOR</strong>, we are proud to be at the forefront of advancing
@@ -78,7 +76,7 @@ function Homepage() {
               <p>Thank you, and we look forward to being a part of your success story.</p>
             </div>
 
-            {/* Signature (Right-Aligned) */}
+
             <div className="mt-8 text-white italic text-right">
               <p>Warm regards,</p>
               <p className="font-semibold">- Eng. Abdulrahman S. Alweheid</p>
