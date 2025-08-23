@@ -42,7 +42,7 @@ function Homepage() {
               <Quote className="w-8 h-8 text-white" />
             </div>
 
-            <div className="text-white font-serif text-base sm:text-lg leading-relaxed text-justify">
+            <div className="text-white font-serif text-base sm:text-sm leading-relaxed text-justify">
               <p>
                 At <strong>SHENZOR</strong>, we are proud to be at the forefront of advancing
                 underground infrastructure inspection and maintenance in Saudi Arabia. With deep
