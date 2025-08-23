@@ -15,7 +15,7 @@ function Homepage() {
 
 
       <section
-        className={`py-16 bg-darkGray mt-6 ${
+        className={`py-16 bg-drakGray mt-6 ${
           isLoaded ? 'animate-fade-in animate-delay-400' : 'opacity-0'
         }`}
       >
