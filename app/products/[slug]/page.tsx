@@ -80,60 +80,56 @@ export default function ProductSlugPage({ params }: { params: Promise<Params> })
   }
 
   return (
-    <div className="min-h-screen bg-drakGray">
-      {/* Header Section */}
+    <div className="min-h-screen bg-drakGray mt-16">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="bg-drakGray py-16"
+        className="relative h-96 md:h-[500px] overflow-hidden"
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <Image
+          id="cover image"
+          src={partner.logo}
+          alt={partner.name}
+          fill
+          className="object-cover"
+        />
+
+        <div className="absolute inset-0 bg-black/60" />
+        <div className="absolute top-6 left-6 z-50">
           <Link
             href="/products"
-            className="inline-flex items-center text-blue-200 hover:text-white transition-colors mb-6 py-8"
+            className="inline-flex items-center text-white hover:text-blue-200 transition-colors"
           >
-            <ArrowLeft className="w-5 h-5 mr-2 border rounded-full" />
+            <ArrowLeft className="w-10 h-10 p-2 border border-white/30 rounded-full hover:bg-white/10 backdrop-blur-sm" />
           </Link>
+        </div>
+        
 
-          <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
-            <motion.div
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ delay: 0.3, type: "spring", stiffness: 200 }}
-              className="relative w-24 h-24 rounded-2xl overflow-hidden bg-white p-2"
+        <div className="absolute inset-0 flex items-center justify-center z-10">
+          <div className="text-center px-4">
+            <motion.h1
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.4 }}
+              className="text-5xl md:text-7xl font-bold text-white mb-4 drop-shadow-2xl"
             >
-              <Image
-                src={partner.logo}
-                alt={partner.name}
-                fill
-                className="object-cover rounded-xl"
-              />
-            </motion.div>
-
-            <div className="flex-1">
-              <motion.h1
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.4 }}
-                className="text-4xl md:text-5xl font-bold text-white mb-4"
-              >
-                {partner.name}
-              </motion.h1>
-              <motion.p
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.5 }}
-                className="text-xl text-blue-100 max-w-3xl leading-relaxed"
-              >
-                {partner.description}
-              </motion.p>
-            </div>
+              {partner.name}
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.6 }}
+              className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed drop-shadow-lg"
+            >
+              {partner.description}
+            </motion.p>
           </div>
         </div>
       </motion.div>
 
-      {/* Products Section */}
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6 }} className="space-y-16">
           {partner.products.map((product: Product, index: number) => (
@@ -158,7 +154,7 @@ export default function ProductSlugPage({ params }: { params: Promise<Params> })
                   </div>
 
                   {/* Product Details */}
-                  <div id={product.name} className="p-8 lg:p-12">
+                  <div id={product.name} className="p-8 lg:p-12 mt-24">
                     <CardHeader className="px-0 pt-0">
                       <CardTitle className="text-3xl font-bold text-white mb-4 transition-colors">
                         {product.name}
@@ -167,7 +163,7 @@ export default function ProductSlugPage({ params }: { params: Promise<Params> })
                     </CardHeader>
 
                     <CardContent className="px-0 space-y-8">
-                      {/* Key Features */}
+
                       <div>
                         <div className="flex items-center mb-4">
                           <Zap className="w-6 h-6 text-yellow-400 mr-3" />

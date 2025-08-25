@@ -6,14 +6,14 @@ import zoomcamera from "@/assets/products/iPEK/zoomcamera.png"
 import manholecamera from "@/assets/products/iPEK/manholecamera.png"
 import videonozzle from "@/assets/products/iPEK/videonozzles.png"
 import wincan from "@/assets/products/wincan/wincan.png"
-import enz from "@/assets/products/enz/EnzCam.png"
+import enz from "@/assets/products/enz/Enz.jpg"
 import bulldog37hd from "@/assets/products/enz/Bulldog-37HD.png"
 import bulldog60hd from "@/assets/products/enz/Bulldog-60HD-130HD.png"
 import rgs from "@/assets/products/enz/rgs-hrh-kbr-kbrv.png"
 import ub360 from "@/assets/products/enz/Rohre-ueber-30-mm.png"
-import dietmarkaiser from "@/assets/products/dietmarkaiser/DYNA Combi.jpg"
+import dietmarkaiser from "@/assets/products/dietmarkaiser/dietmarkaiser.jpg"
 import dynacombi from "@/assets/products/dietmarkaiser/dyna-combi.jpg"
-import envirobot from "@/assets/products/envirobot/viper.png"
+import envirobot from "@/assets/products/envirobot/envirobot.jpg"
 import viperlong from "@/assets/products/envirobot/viper-long.png"
 import vipercomapct from "@/assets/products/envirobot/viper-compact.jpg"
 import viperlight from "@/assets/products/envirobot/viper-light.jpg"
@@ -21,6 +21,7 @@ import sr5 from "@/assets/products/sortimo/sr5.jpg"
 import globelst4 from "@/assets/products/sortimo/globelst4.jpg"
 import fr5 from "@/assets/products/sortimo/fr5.jpg"
 import ims from "@/assets/products/ims/ims Robotics.png"
+import imsicon from "@/assets/products/ims/ims.jpg"
 import sortimo from '@/assets/products/sortimo/sortimo.jpg'
 import falch from '@/assets/products/flach/falch.jpg'
 import g349 from '@/assets/products/flach/g349.jpg'
@@ -518,7 +519,7 @@ export const partnerProducts = {
   ims: {
     name: "IMS ROBOTICS",
     description: "Modular UV technology solutions designed entirely according to your requirements, whether stand-alone, mobile or permanently installed.",
-    logo: ims,
+    logo: imsicon,
     products: [
       {
         id: 1,
@@ -548,7 +549,7 @@ export const partnerProducts = {
   },
   envirobot: {
     name: "Envirobot",
-    description: "So that you can adapt VIPER individually to your area of ​​application, we offer different variants that fit perfectly to your needs - from the power pack with a particularly large range to the VIPER light, our portable compact solution.",
+    description: "VIPER individually to your area of ​​application we offer different variants that fit perfectly to your needs - from the power pack with a particularly large range to the VIPER light, our portable compact solution.",
     logo: envirobot,
     products: [
       {
@@ -626,7 +627,7 @@ export const partnerProducts = {
   },
   sortimo: {
     name: "Sortimo",
-    description: "Sortimovan rackingsOptimise your workflows withthe van rackings from Sortimo",
+    description: "Sortimo van rackings Optimise your workflows with the van rackings from Sortimo",
     logo: sortimo,
     products: [
       {
