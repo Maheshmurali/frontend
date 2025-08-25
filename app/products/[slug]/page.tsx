@@ -97,7 +97,7 @@ export default function ProductSlugPage({ params }: { params: Promise<Params> })
         />
 
         <div className="absolute inset-0 bg-black/60" />
-        <div className="absolute top-6 left-6 z-50">
+        <div className="absolute top-6 left-6 z-30">
           <Link
             href="/products"
             className="inline-flex items-center text-white hover:text-blue-200 transition-colors"
