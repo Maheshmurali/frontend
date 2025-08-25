@@ -43,6 +43,14 @@ const products = [
     description:
       "The DRIVEplus CLEANER enables fast and reliable removal of deposits. concrete other materials using ultra high pressure water up to 2,500 bar. The ultraater pressure adaptation is versatile and suitable for main sewers with diame1rom DN 200 to DN 600. The rotary swivel drive (DSA), which can be rotated.",
   },
+    {
+    name: "Sortimo",
+    title :"SR5-The Next Generation",
+    image: "/partners/Sortimo.jpg",
+    link:'/sortimo',
+    description:
+      "Sortimo have developed the fifth generation of van racking - it is an intelligent mobility system which offers the user maximum efficiency in day-to-day working. SR5 embodies more than 50 years of experience, passion and expertise in a single unit. ",
+  },
 ];
 
 function PartnerHighlites() {
