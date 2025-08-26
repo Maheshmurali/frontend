@@ -11,7 +11,7 @@ import { Separator } from "@/components/ui/separator";
 import { ArrowLeft, CheckCircle, Zap, Eye, Wrench } from "lucide-react";
 import { partnerProducts } from "@/lib/data";
 
-// Accept both imported images and string URLs
+
 type ImageType = string | StaticImageData;
 
 interface Product {

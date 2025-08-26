@@ -28,7 +28,7 @@ function Homepage() {
 
           <div className="flex justify-center mb-6">
             <Image
-              src="/user.png"
+              src="/ceo.jpg"
               alt="CEO image"
               width={120}
               height={120}
@@ -81,6 +81,9 @@ function Homepage() {
               <p>Warm regards,</p>
               <p className="font-semibold">- Eng. Abdulrahman S. Alweheid</p>
               <p className="text-sm">Chief Executive Officer</p>
+              <div className='w-full flex justify-end py-1'>
+                <Image src="/logo.png" alt='logo' width={75} height={50} />
+              </div>
             </div>
           </div>
         </div>
