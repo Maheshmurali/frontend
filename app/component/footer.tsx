@@ -42,7 +42,7 @@ export function FooterSection() {
               </Link>
             </li>
             <li>
-              <Link href="/privacy" className=" hover:text-main transition-colors">
+              <Link href='/privacy&policy' target="_blank" className=" hover:text-main transition-colors">
                 Privacy&Policy
               </Link>
             </li>
@@ -72,17 +72,17 @@ export function FooterSection() {
     </div> 
     <div className="flex w-full align-middle justify-center items-center mt-4">
       <div className="flex space-x-6">
-        <Link className="text-white hover:text-main" href='https://www.facebook.com/?locale=ar_AR'><Facebook /></Link>
-        <Link className="text-white hover:text-main" href='https://www.instagram.com/?utm_source=pwa_homescreen&__pwa=1'><Instagram /></Link>
-        <Link className="text-white hover:text-main" href='https://www.linkedin.com/'><Linkedin /></Link>
-        <Link className="text-white text-xl hover:text-main" href='https://x.com/'><BsTwitterX /></Link>
-        <Link className="text-white text-xl hover:text-main" href='https://www.whatsapp.com/?lang=ar_AR'><FaWhatsapp /></Link>
+        <Link className="text-white hover:text-main" href='https://www.facebook.com/?locale=ar_AR' target="_blank"><Facebook /></Link>
+        <Link className="text-white hover:text-main" href='https://www.instagram.com/?utm_source=pwa_homescreen&__pwa=1' target="_blank"><Instagram /></Link>
+        <Link className="text-white hover:text-main" href='https://www.linkedin.com/' target="_blank"><Linkedin /></Link>
+        <Link className="text-white text-xl hover:text-main" href='https://x.com/' target="_blank"><BsTwitterX /></Link>
+        <Link className="text-white text-xl hover:text-main" href='https://www.whatsapp.com/?lang=ar_AR' target="_blank"><FaWhatsapp /></Link>
       </div>
     </div>
     <div className="mt-8 pt-8 border-t border-gray-800 text-center">
       <p className="text-main">&copy; {year} SHENZOR®. All rights reserved.</p>
       <div className="mt-2 flex justify-center space-x-4">
-        <Link href='/privacy&policy' className="text-main hover:text-white transition-colors">
+        <Link href='/privacy&policy' target="_blank" className="text-main hover:text-white transition-colors">
           Privacy&Policy
         </Link>
       </div>

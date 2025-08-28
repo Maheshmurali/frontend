@@ -220,7 +220,9 @@ export default function About() {
                   ${index === items.id - 1 ? 'border-r-0' : ''}
                 `}
                 >
-                <a href={items.hyperlink}>
+                <a href={items.hyperlink}
+                target="_blank"
+                >
                   <div className="flex flex-col justify-center items-center space-y-2">
                     <Image
                       src={items.image}
