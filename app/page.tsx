@@ -30,8 +30,8 @@ function Homepage() {
             <Image
               src="/ceo.jpg"
               alt="CEO image"
-              width={120}
-              height={120}
+              width={180}
+              height={200}
               className="rounded-full border-4 border-white shadow-lg"
             />
           </div>
