@@ -1,0 +1,84 @@
+[
+    {
+    "slug": "abdulrahman",
+    "name": "Abdulrahman S. Alweheid",
+    "title": "CEO",
+    "company": "Shenzor Robots Technology",
+    "email": "alweheid@shenzor.com",
+    "phone": "+966 504404450",
+    "whatsapp": "+966 504404450",
+    "address": "Riyadh KSA",
+    "website": "https://shenzor.com",
+    "linkedin": "https://linkedin.com/in/john-doe",
+    "bio": "SHENZOR® excels in cutting-edge technology and advanced tools,backed by over a decade of expertise.",
+    "photo_url": ""
+  },
+  
+  {
+    "slug": "abdullah",
+    "name": "Abdullah Alweheid",
+    "title": "HR Manager",
+    "company": "Shenzor Robots Technology",
+    "email": "abdullah.bam@shenzor.com",
+    "phone": "+966 550144146",
+    "whatsapp": "+966 550144146",
+    "address": "Riyadh KSA",
+    "website": "https://shenzor.com",
+    "linkedin": "https://linkedin.com/in/john-doe",
+    "bio": "Dedicated HR professional with a passion for employee growth and organizational success..",
+    "photo_url": ""
+  },
+  {
+    "slug": "nader",
+    "name": "Nader M Ahmed",
+    "title": "Operation And Maintenance Manager",
+    "company": "Shenzor Robots Technology",
+    "email": "n.m.ahmed@shenzor.com",
+    "phone": "+966 5448104457",
+    "whatsapp": "+966 5448104457",
+    "address": "Riyadh KSA",
+    "website": "https://shenzor.com",
+    "linkedin": "https://linkedin.com/shenzor",
+    "bio": "Dedicated O&M manager with a passion for optimizing performance and ensuring operational excellence.",
+    "photo_url": ""
+  },
+  {
+    "slug": "loaialsheikh",
+    "name": "Loai Al Sheikh",
+    "title": "Sales Manager",
+    "company": "Shenzor Robots Technology",
+    "email": "l.alshikh@shenzor.com",
+    "phone": "+966 559845411",
+    "whatsapp": "+966 559845411",
+    "address": "Riyadh KSA",
+    "website": "https://shenzor.com",
+    "bio": "Dedicated sales professional with a passion for client success.",
+    "photo_url": ""
+  },
+  {
+    "slug": "ibrahimabbas",
+    "name": "Ibrahim Abbas ",
+    "title": "Maintenance Team Leader",
+    "company": "Shenzor Robots Technology",
+    "email": "i.mubarak@shenzor.com",
+    "phone": "+966534749431",
+    "whatsapp": "+966534749431",
+    "address": "Riyadh KSA",
+    "website": "https://shenzor.com",
+    "bio": "Committed service professional focused on reliability, innovation, and service quality.",
+    "photo_url": ""
+  },
+    {
+    "slug": "mahesh",
+    "name": "Mahesh Murali",
+    "title": "Maintenance Engineer",
+    "company": "Shenzor Robots Technology",
+    "email": "mahesh@shenzor.com",
+    "phone": "+966564206725",
+    "whatsapp": "+966564206725",
+    "address": "Riyadh KSA",
+    "website": "https://shenzor.com",
+    "bio": "Dedicated maintenance professional with a passion for operational excellence and team performance.",
+    "photo_url": ""
+  }
+]
