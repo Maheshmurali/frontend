@@ -91,7 +91,7 @@ END:VCARD`
               <h1 className="text-3xl font-bold text-slate-900 mt-4 text-center">
                 {rep.name}
               </h1>
-              <p className="text-lg text-blue-600 font-medium">{rep.title}</p>
+              <p className="text-lg text-blue-600 font-medium text-center">{rep.title}</p>
               <p className="text-slate-600">{rep.company}</p>
             </div>
 
