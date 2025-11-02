@@ -13,7 +13,7 @@ export default function Page() {
       <div className="min-h-screen flex items-center justify-center bg-gray-50">
         <div className="text-center">
           <h1 className="text-2xl font-semibold text-red-600 mb-2">Contact Not Found</h1>
-          <p className="text-slate-600">The sales representative you’re looking for doesn’t exist.</p>
+          <p className="text-slate-600">Our crawlers couldn not find what you are looking for.</p>
         </div>
       </div>
     )
