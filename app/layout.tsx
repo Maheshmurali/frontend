@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Shenzor- Industries",
+  title: "Shenzor",
   description: "Shenzor Integrated CCTV Inspection Systems",
 };
 
