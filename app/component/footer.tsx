@@ -54,7 +54,7 @@ export function FooterSection() {
           <ul className="space-y-4">
             <li className="flex items-center space-x-5 text-white">
                 <span><Phone/> </span>
-                <p>+(966) 55 9845411</p>
+                <p>+(966) 50 440 4450</p>
             </li>
             <li className="flex items-center space-x-5 text-white">
               <span><MessageSquareShare /></span>
