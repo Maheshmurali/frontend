@@ -1,14 +1,20 @@
+'use client'
 import PartnerHighlites from '@/app/component/homepage/Partnerhightlite';
 import HeaderSlide from './component/homepage/Homeprofileslide';
 import Image from 'next/image';
 import ClientList from './component/homepage/clients';
 import { Quote } from 'lucide-react';
+import ExhibitionPopup from './component/homepage/popUps';
+import { useState } from 'react';
 
 function Homepage() {
+   const [showPopup, setShowPopup] = useState(true);
   const isLoaded = true;
+
 
   return (
     <div>
+      {showPopup && <ExhibitionPopup onClose={() => setShowPopup(false)} />}
       <HeaderSlide />
       <PartnerHighlites />
       <ClientList />
