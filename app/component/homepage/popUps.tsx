@@ -186,7 +186,7 @@ export default function ExhibitionPopup({ onClose }: ExhibitionPopupProps) {
                 <MapPin className="inline-block w-6 h-6 mr-2 text-main" />
                 Booth Location (3G10)
               </h4>
-              <div className="relative w-full h-64 bg-gradient-to-br from-gray-100/50 to-gray-200/50 rounded-xl overflow-hidden shadow-inner flex items-center justify-center group border border-white/40">
+              <div className="relative w-full h-64 rounded-xl overflow-hidden shadow-inner flex items-center justify-center group border border-white/40">
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                 <div className="text-center z-10">
                   <MapPin className="w-16 h-16 text-gray-400 mx-auto mb-2 group-hover:scale-110 transition-transform" />
