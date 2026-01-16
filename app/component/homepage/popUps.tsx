@@ -51,7 +51,7 @@ export default function ExhibitionPopup({ onClose }: ExhibitionPopupProps) {
             src={BackgroundImg} 
             alt="background" 
             fill 
-            className="object-cover opacity-30" 
+            className="object-cover opacity-100" 
             priority
           />
         </div>
@@ -78,7 +78,7 @@ export default function ExhibitionPopup({ onClose }: ExhibitionPopupProps) {
 
         
         <div className="relative z-10 overflow-y-auto max-h-[90vh] scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
-          <div className=" text-black p-8 text-center">
+          <div className=" text-white p-8 text-center">
             <div className="animate-fade-in">
               <div className="inline-block mb-4">
                 <div className="bg-white/10 backdrop-blur-sm rounded-full p-3 animate-bounce">
@@ -88,11 +88,11 @@ export default function ExhibitionPopup({ onClose }: ExhibitionPopupProps) {
               <h2 className="text-3xl md:text-4xl font-bold mb-2 animate-slide-up">
                 IFAT Saudi Arabia 2026
               </h2>
-              <div className="flex items-center justify-center gap-2 text-slate-800 animate-slide-up animation-delay-200">
+              <div className="flex items-center justify-center gap-2 text-slate-100 animate-slide-up animation-delay-200">
                 <MapPin className="w-5 h-5 text-main" />
                 <p className="text-lg">Riyadh Front Exhibition & Conference Center</p>
               </div>
-              <p className="text-xl mt-2 font-semibold text-slate-700 animate-slide-up animation-delay-300">
+              <p className="text-xl mt-2 font-semibold text-slate-100 animate-slide-up animation-delay-300">
                 26-28 January 2026
               </p>
             </div>
@@ -101,16 +101,16 @@ export default function ExhibitionPopup({ onClose }: ExhibitionPopupProps) {
           <div className="p-8 space-y-8">
             <div className="space-y-6 animate-slide-up animation-delay-400">
               <div className="text-right" dir="rtl">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-main pb-2 inline-block">
+           {/**     <h3 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-main pb-2 inline-block">
                   دعوة خاصة
                 </h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
+                <p className="text-white leading-relaxed mb-4">
                   يسرّ فريق شركة شنزر دعوتكم لحضور جناحنا في معرض IFAT Saudi Arabia، والذي سيُقام خلال الفترة 26–28 يناير 2026 في مركز واجهة الرياض للمعارض والمؤتمرات.
-                </p>
+                </p> */}
 
-                <div className="bg-white/60 backdrop-blur-md rounded-xl p-6 my-6 border border-white/40">
+                <div className="bg-white/50 backdrop-blur-md rounded-xl p-6 my-6 border border-white/40">
                   <h4 className="text-xl font-bold text-black mb-4">لماذا شنزر SHENZOR؟</h4>
-                  <ul className="space-y-3 text-gray-800">
+                  <ul className="space-y-3 text-gray-900">
                     <li className="flex items-start gap-3">
                       <span className="text-main text-xl mt-1">•</span>
                       <span>حلول فحص مُثبتة وموثوقة لشبكات الصرف الصحي ومياه الأمطار</span>
@@ -130,11 +130,11 @@ export default function ExhibitionPopup({ onClose }: ExhibitionPopupProps) {
                   </ul>
                 </div>
 
-                <p className="text-gray-700 leading-relaxed mb-4">
+                <p className="text-gray-100 leading-relaxed mb-4">
                   تجارب حية للمنتجات، قارن الخيارات جنبًا إلى جنب واطرح الأسئلة المهمة التي تساعدك في اتخاذ القرار.
                 </p>
 
-                <p className="text-gray-800 font-semibold">
+                <p className="text-gray-100 font-semibold">
                   إذا كانت هذه المجالات ضمن اهتماماتك أو مرتبطة بعملك في قطاعات البيئة أو إدارة المياه في المملكة، نرجو تشريفنا بزيارتكم
                 </p>
               </div>
@@ -142,16 +142,16 @@ export default function ExhibitionPopup({ onClose }: ExhibitionPopupProps) {
               <div className="h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent"></div>
 
               <div className="text-left">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-main pb-2 inline-block">
+             {/**   <h3 className="text-2xl font-bold text-gray-100 mb-4 border-b-2 border-main pb-2 inline-block">
                   Special Invitation
                 </h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
+                <p className="text-gray-100 leading-relaxed mb-4">
                   SHENZOR team is pleased to invite you to visit our booth at IFAT Saudi Arabia, taking place from 26–28 January 2026 at the Riyadh Front Exhibition & Conference Center.
-                </p>
+                </p> */}
 
-                <div className="bg-white/60 backdrop-blur-md rounded-xl p-6 my-6 border border-white/40">
+                <div className="bg-white/50 backdrop-blur-md rounded-xl p-6 my-6 border border-white/40">
                   <h4 className="text-xl font-bold text-black mb-4"><span className='text-2xl'>W</span>hy SHENZOR?</h4>
-                  <ul className="space-y-3 text-gray-800">
+                  <ul className="space-y-3 text-gray-900">
                     <li className="flex items-start gap-3">
                       <span className="text-main text-xl mt-1">•</span>
                       <span>Proven and reliable inspection solutions for sewer and stormwater networks</span>
@@ -171,18 +171,18 @@ export default function ExhibitionPopup({ onClose }: ExhibitionPopupProps) {
                   </ul>
                 </div>
 
-                <p className="text-gray-700 leading-relaxed mb-4">
+                <p className="text-gray-100 leading-relaxed mb-4">
                   Experience live product demonstrations, compare solutions side by side, and ask the critical questions that support informed decision-making.
                 </p>
 
-                <p className="text-gray-800 font-semibold">
+                <p className="text-gray-100 font-semibold">
                   If these areas align with your interests or your role within the environmental or water management sectors in the Kingdom, we would be honored to welcome you at our booth.
                 </p>
               </div>
             </div>
 
             <div className="animate-slide-up animation-delay-600">
-              <h4 className="text-xl font-bold text-gray-900 mb-4 text-center">
+              <h4 className="text-xl font-bold text-gray-100 mb-4 text-center">
                 <MapPin className="inline-block w-6 h-6 mr-2 text-main" />
                 Booth Location (3G10)
               </h4>
@@ -197,12 +197,17 @@ export default function ExhibitionPopup({ onClose }: ExhibitionPopupProps) {
             </div>
 
             <div className="flex justify-center pt-4 animate-slide-up animation-delay-700">
-              <button
+           <a 
+            href='https://register.ifat-saudiarabia.com/DMG_Shop/IFAT26/?utm_source=direct-traffic&utm_medium=direct&utm_campaign=direct-url-entry&src=popup-opti'
+                target="_blank"
+                rel="noopener noreferrer">
+               <button
                 onClick={handleClose}
-                className="px-12 py-4 bg-black text-white font-bold text-lg rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 hover:from-blue-700 hover:to-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300"
+                className="px-12 py-4 bg-main text-white font-bold text-lg rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 hover:from-blue-700 hover:to-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300"
               >
-                OK
+                REGISTER NOW
               </button>
+           </a>
             </div>
           </div>
         </div>
