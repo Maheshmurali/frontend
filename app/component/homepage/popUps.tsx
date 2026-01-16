@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { X, MapPin, Calendar } from 'lucide-react';
 import Location from "../../../public/POPUP/IFAT 2026.png"
+import BackgroundImg from "../../../public/POPUP/background-pattern.jpeg" 
+
 interface ExhibitionPopupProps {
   onClose?: () => void;
 }
@@ -43,6 +45,17 @@ export default function ExhibitionPopup({ onClose }: ExhibitionPopupProps) {
         }`}
         onClick={(e) => e.stopPropagation()}
       >
+        
+        <div className="absolute inset-0 z-0">
+          <Image 
+            src={BackgroundImg} 
+            alt="background" 
+            fill 
+            className="object-cover opacity-30" 
+            priority
+          />
+        </div>
+
         {isLoading && (
           <div className="absolute inset-0 flex items-center justify-center bg-white z-10">
             <div className="flex flex-col items-center gap-4">
@@ -63,8 +76,9 @@ export default function ExhibitionPopup({ onClose }: ExhibitionPopupProps) {
           <X className="w-5 h-5 text-gray-600 group-hover:text-gray-900 transition-colors" />
         </button>
 
-        <div className="overflow-y-auto max-h-[90vh] scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
-          <div className="bg-black text-white p-8 text-center">
+        
+        <div className="relative z-10 overflow-y-auto max-h-[90vh] scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
+          <div className=" text-black p-8 text-center">
             <div className="animate-fade-in">
               <div className="inline-block mb-4">
                 <div className="bg-white/10 backdrop-blur-sm rounded-full p-3 animate-bounce">
@@ -74,11 +88,11 @@ export default function ExhibitionPopup({ onClose }: ExhibitionPopupProps) {
               <h2 className="text-3xl md:text-4xl font-bold mb-2 animate-slide-up">
                 IFAT Saudi Arabia 2026
               </h2>
-              <div className="flex items-center justify-center gap-2 text-blue-100 animate-slide-up animation-delay-200">
-                <MapPin className="w-5 h-5" />
+              <div className="flex items-center justify-center gap-2 text-slate-800 animate-slide-up animation-delay-200">
+                <MapPin className="w-5 h-5 text-main" />
                 <p className="text-lg">Riyadh Front Exhibition & Conference Center</p>
               </div>
-              <p className="text-xl mt-2 font-semibold text-blue-100 animate-slide-up animation-delay-300">
+              <p className="text-xl mt-2 font-semibold text-slate-700 animate-slide-up animation-delay-300">
                 26-28 January 2026
               </p>
             </div>
@@ -94,7 +108,7 @@ export default function ExhibitionPopup({ onClose }: ExhibitionPopupProps) {
                   يسرّ فريق شركة شنزر دعوتكم لحضور جناحنا في معرض IFAT Saudi Arabia، والذي سيُقام خلال الفترة 26–28 يناير 2026 في مركز واجهة الرياض للمعارض والمؤتمرات.
                 </p>
 
-                <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 my-6">
+                <div className="bg-white/60 backdrop-blur-md rounded-xl p-6 my-6 border border-white/40">
                   <h4 className="text-xl font-bold text-black mb-4">لماذا شنزر SHENZOR؟</h4>
                   <ul className="space-y-3 text-gray-800">
                     <li className="flex items-start gap-3">
@@ -135,7 +149,7 @@ export default function ExhibitionPopup({ onClose }: ExhibitionPopupProps) {
                   SHENZOR team is pleased to invite you to visit our booth at IFAT Saudi Arabia, taking place from 26–28 January 2026 at the Riyadh Front Exhibition & Conference Center.
                 </p>
 
-                <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 my-6">
+                <div className="bg-white/60 backdrop-blur-md rounded-xl p-6 my-6 border border-white/40">
                   <h4 className="text-xl font-bold text-black mb-4"><span className='text-2xl'>W</span>hy SHENZOR?</h4>
                   <ul className="space-y-3 text-gray-800">
                     <li className="flex items-start gap-3">
@@ -172,12 +186,12 @@ export default function ExhibitionPopup({ onClose }: ExhibitionPopupProps) {
                 <MapPin className="inline-block w-6 h-6 mr-2 text-main" />
                 Booth Location (3G10)
               </h4>
-              <div className="relative w-full h-64 bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl overflow-hidden shadow-inner flex items-center justify-center group">
+              <div className="relative w-full h-64 bg-gradient-to-br from-gray-100/50 to-gray-200/50 rounded-xl overflow-hidden shadow-inner flex items-center justify-center group border border-white/40">
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                 <div className="text-center z-10">
                   <MapPin className="w-16 h-16 text-gray-400 mx-auto mb-2 group-hover:scale-110 transition-transform" />
                   
-                  <p className="text-sm text-gray-500 mt-1"><Image src={Location} alt='Location' fill/></p>
+                  <div className="text-sm text-gray-500 mt-1"><Image src={Location} alt='Location' fill className="object-contain" /></div>
                 </div>
               </div>
             </div>
