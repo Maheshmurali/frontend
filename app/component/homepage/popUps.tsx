@@ -108,9 +108,9 @@ export default function ExhibitionPopup({ onClose }: ExhibitionPopupProps) {
                   يسرّ فريق شركة شنزر دعوتكم لحضور جناحنا في معرض IFAT Saudi Arabia، والذي سيُقام خلال الفترة 26–28 يناير 2026 في مركز واجهة الرياض للمعارض والمؤتمرات.
                 </p> */}
 
-                <div className="bg-white/50 backdrop-blur-md rounded-xl p-6 my-6 border border-white/40">
-                  <h4 className="text-xl font-bold text-black mb-4">لماذا شنزر SHENZOR؟</h4>
-                  <ul className="space-y-3 text-gray-900">
+                <div className=" rounded-xl p-6 my-6 border border-white/40">
+                  <h4 className="text-xl font-bold text-white mb-4">لماذا شنزر SHENZOR؟</h4>
+                  <ul className="space-y-3 text-gray-100">
                     <li className="flex items-start gap-3">
                       <span className="text-main text-xl mt-1">•</span>
                       <span>حلول فحص مُثبتة وموثوقة لشبكات الصرف الصحي ومياه الأمطار</span>
@@ -149,9 +149,9 @@ export default function ExhibitionPopup({ onClose }: ExhibitionPopupProps) {
                   SHENZOR team is pleased to invite you to visit our booth at IFAT Saudi Arabia, taking place from 26–28 January 2026 at the Riyadh Front Exhibition & Conference Center.
                 </p> */}
 
-                <div className="bg-white/50 backdrop-blur-md rounded-xl p-6 my-6 border border-white/40">
-                  <h4 className="text-xl font-bold text-black mb-4"><span className='text-2xl'>W</span>hy SHENZOR?</h4>
-                  <ul className="space-y-3 text-gray-900">
+                <div className=" rounded-xl p-6 my-6 border boder-white/40">
+                  <h4 className="text-xl font-bold text-white mb-4"><span className='text-2xl'>W</span>hy SHENZOR?</h4>
+                  <ul className="space-y-3 text-gray-100">
                     <li className="flex items-start gap-3">
                       <span className="text-main text-xl mt-1">•</span>
                       <span>Proven and reliable inspection solutions for sewer and stormwater networks</span>
