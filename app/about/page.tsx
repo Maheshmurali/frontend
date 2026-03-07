@@ -169,30 +169,27 @@ export default function About() {
                 />
                 <div className="lg:absolute lg:top-96 xl:top-[24rem]">
                 <p className="text-white mb-4 text-md text-xs md:text-sm mt-8 xl:text-xl">
-                  Founded in 2016, SHENZOR® provides inspection solutions and
-                  services for storm & sewer pipelines using SHENZOR® registered
-                  systems and robots. In addition, we’re a trusted partner for
-                  leading companies in the field of CCTV pipe inspection,
-                  cleaning and rehabilitation; iPEK GmbH, IMS Robotics GmbH,
-                  BWELL TECHNOLOGY, WinCan AG and Dietmar Kaiser AG. Our diverse
-                  products portfolio enabled us to provide our customers with
-                  solutions to challenges facing utility owners and operators,
-                  albeit CCTV inspection, Multi-sensor inspection or specialized
-                  UHP water jet cutting crawlers to remove solid obstructions
-                  and deposits settled.
+                  Since 2016, SHENZOR has been helping utilities see clearly beneath the surface. 
+                  We specialize in advanced inspection & rehabilitation solutions for stormwater and sewer pipeline networks,
+                   combining cutting-edge robotic systems with deep operational expertise. 
+                   As a trusted partner to leading global manufacturers - such as iPEK GmbH,
+                    IMS Robotics GmbH, Enz Technik AG, WinCan AG, and Dietmar Kaiser 
+                    AG - SHENZOR delivers a comprehensive range of solutions. 
+                    Our portfolio spans CCTV and multi-sensor inspection systems, 
+                    as well as powerful ultra-high-pressure (UHP) water jet & cutting crawlers designed to 
+                    tackle the most challenging obstructions and deposits.
                 </p>
                 <p className="text-white mb-4 text-md text-xs md:text-sm mt-4 xl:text-xl">
-                  In addition to providing inspection solutions, SHENZOR® also
-                  provides technical support, local maintenance services both
-                  preventive and corrective, training & certification through
-                  our partnership with Develop Training UK.
+                  What sets SHENZOR apart goes beyond technology.
+                   We provide local technical support, preventive and corrective maintenance, 
+                   and professional training and certification programs in partnership with Develop Training
+                    UK - ensuring long-term system performance and confident operators.
                 </p>
                 <p className="text-white text-md text-xs md:text-sm mt-4 xl:text-xl">
-                  spaur expertise together with forging strategic partnerships
-                  with world-renowned brands in the field of sewer inspection &
-                  management positioned SHENZOR as the go-to partner for Utility
-                  owners and operating entities, both in KSA & the region.
-                </p>
+                  By combining innovation, global partnerships, and strong local presence, SHENZOR has 
+                  become a preferred partner for utility owners and operators across 
+                  Saudi Arabia and the region, delivering complete, future-ready solutions backed by local support, maintenance, and training.
+                  </p>
               </div>
               </div>
               
